@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  user-select: none;
+}
+
+body, input {
+  font-family: 'Roboto', sans-serif;
+  color: #1D1D1D;
+  font-size: 16px;
+}
+
+input[type=button] {
+  padding: 5px;
+  min-width: 30px;
+  border: 1px solid lightgrey;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  margin: auto;  
+}
+
+.controls {
+  width: 175px;
+  height: 100%;
+}
+
+.controls div, .controls input {
+  margin: 3px 0;
+}
+
+canvas {
+  cursor: none;
+  touch-action: none;
+}
+
+.github {
+  margin: 15px 0;
+  font-size: 16px;
+}

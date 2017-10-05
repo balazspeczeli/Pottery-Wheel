@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=550, user-scalable=no">
+  <title>Pottery wheel</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400&subset=latin,latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <canvas width="500" height="500"></canvas>
+    <div class="controls">
+      <div><b>Wheel</b></div>
+      <hr>
+      <div>Speed: <span id="current-speed"></span></div>
+      <input type="button" value="+" id="speed-increase">
+      <input type="button" value="-" id="speed-decrease">
+      <input type="button" value="stop" id="speed-stop">
+      <div>Direction: <span id="current-direction"></span></div>
+      <input type="button" value="reverse" id="direction-reverse">
+      <div><b>Current line</b></div>
+      <hr>
+      <div>Color: <b><span id="current-color"></span></b></div>
+      <div id="colors"></div>
+      <div>Width: <span id="current-width"></span></div>
+      <input type="button" value="+" id="width-increase">
+      <input type="button" value="-" id="width-decrease">
+      <hr>
+      <input type="button" value="undo" id="undo">
+      <input type="button" value="clear all" id="clearall">
+      <a id="download"><input type="button" value="download as png"></a>
+    </div>
+    <div class="github">
+        Github: <a href="https://github.com/balazsdavid987/Pottery-Wheel">https://github.com/balazsdavid987/Pottery-Wheel</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
