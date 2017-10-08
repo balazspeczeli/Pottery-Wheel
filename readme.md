@@ -8,7 +8,7 @@ Demo (video): [https://www.youtube.com/watch?v=vAK1gZO2iq8](https://www.youtube.
 
 ## Examples
 
-*Note: due to a bug, you can draw polygons instead of circles when the wheel is spinning fast and I like that so much that I decided to leave it unfixed.
+*Note: due to a bug, you can draw polygons instead of circles when the wheel is spinning fast and I like that so much that I decided to leave it unfixed.*
 
 ![](examples/pottery-wheel-1.jpg)
 ![](examples/pottery-wheel-2.jpg)
